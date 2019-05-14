@@ -63,11 +63,10 @@ public abstract class BaseActivity extends AppCompatActivity {
         }
         dialog.setMessage(underMaintenanceMessage);
         dialog.show();
-
     }
 
     private void dismissUnderMaintenanceDialog() {
-        if (dialog != null) dialog.dismiss();
+        if (dialog != null && dialog.isShowing()) dialog.dismiss();
     }
 
 }
