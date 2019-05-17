@@ -62,7 +62,7 @@ public abstract class BaseActivity extends AppCompatActivity {
                     });
         }
         dialog.setMessage(underMaintenanceMessage);
-        dialog.show();
+        if (!this.isFinishing()) dialog.show();
     }
 
     private void dismissUnderMaintenanceDialog() {
