@@ -1,4 +1,4 @@
-# AppUnderMaintenanceDemo
+# App Under Maintenance Demo
 Implement under maintenance feature on Android app & build an Control panel to manage it.  
 Refer following article for implementation guide :  
 [Build an app under maintenance feature with the control panel using the Firebase real-time database.
