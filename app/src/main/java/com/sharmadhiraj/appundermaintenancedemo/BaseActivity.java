@@ -1,5 +1,7 @@
 package com.sharmadhiraj.appundermaintenancedemo;
 
+import static android.content.DialogInterface.BUTTON_POSITIVE;
+
 import android.content.DialogInterface;
 import android.os.Bundle;
 
@@ -13,8 +15,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
-import static android.content.DialogInterface.BUTTON_POSITIVE;
 
 public abstract class BaseActivity extends AppCompatActivity {
 
