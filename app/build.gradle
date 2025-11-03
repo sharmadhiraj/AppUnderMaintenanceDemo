@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace "com.sharmadhiraj.appundermaintenancedemo"
-    compileSdkVersion 34
+    compileSdkVersion 36
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -16,7 +16,7 @@ android {
     defaultConfig {
         applicationId "com.sharmadhiraj.appundermaintenancedemo"
         minSdkVersion 19
-        targetSdkVersion 34
+        targetSdkVersion 36
         versionCode 1
         versionName "1.0.0"
         multiDexEnabled true
@@ -32,11 +32,11 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.appcompat:appcompat:1.7.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
 
     implementation 'com.google.firebase:firebase-core:21.1.1'
-    implementation 'com.google.firebase:firebase-database:20.3.1'
+    implementation 'com.google.firebase:firebase-database:22.0.1'
 
 }
 
